@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -79,10 +79,10 @@
 <wire x1="-16.51" y1="10.033" x2="-16.51" y2="10.04" width="0.127" layer="21"/>
 <wire x1="17.526" y1="-10.16" x2="17.526" y2="10.04" width="0.127" layer="21"/>
 <wire x1="-16.51" y1="10.033" x2="17.49" y2="10.033" width="0.127" layer="21"/>
-<pad name="V+" x="15.19" y="-7.86" drill="0.85" diameter="2.1844" shape="square"/>
-<pad name="V-" x="15.19" y="7.54" drill="0.85" diameter="2.1844" shape="square"/>
-<pad name="AC2" x="-14.21" y="-2.56" drill="0.85" diameter="2.1844" shape="square"/>
-<pad name="AC1" x="-14.21" y="2.44" drill="0.85" diameter="2.1844" shape="square"/>
+<pad name="V+" x="15.19" y="-7.86" drill="1.5" diameter="2.5" shape="square"/>
+<pad name="V-" x="15.19" y="7.54" drill="1.5" diameter="2.5" shape="square"/>
+<pad name="AC2" x="-14.21" y="-2.56" drill="1.5" diameter="2.5" shape="square"/>
+<pad name="AC1" x="-14.21" y="2.44" drill="1.5" diameter="2.5" shape="square"/>
 </package>
 </packages>
 <symbols>
